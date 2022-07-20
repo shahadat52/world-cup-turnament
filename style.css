@@ -1,11 +1,11 @@
 body{
-    background-color: #b2bec3;
+    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
 
 }
 
 /*----------------
-     header
+   header Start
 -----------------*/
 .container{
     display: flex;
@@ -16,7 +16,7 @@ body{
 .header{
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color:black;
     width: 90%;
     border-radius: 30px;
     margin-bottom: 160px;
@@ -55,7 +55,11 @@ body{
     padding: 16px 25px;
     border-radius: 5px;
     color: #ffffff;
+    border: none;
 }
+/*----------------
+   header End
+-----------------*/
 
 /*-------------------------
 -------Main Section style start------*/
@@ -65,12 +69,13 @@ body{
 }
 .main-container{
     display: flex;
+    justify-content: center;
     gap: 20px;
     width: 90%;
 }
 .dashboard{
     background-color: black;
-    width: 25%;
+    width: 50%;
     height: 312px;
     border-radius: 10px;
     
@@ -94,7 +99,8 @@ body{
     color: black;
     margin-top: 20px;
     width: 100%;
-    border: none;
+    
+   
 }
 .link a{
     background-color: #6c5ce7;
@@ -102,6 +108,7 @@ body{
 .blog-button{
     background-color: #d63031;
     color: #ffffff;
+    border: none;
 }
 
 .matchs{
@@ -114,7 +121,7 @@ body{
 .match{
     border-radius: 10px;
     width: 100%;
-    box-shadow: 10px 20px 30px #dfe6e9;
+    box-shadow: 10px 20px 20px #eaeceb;
 }
 .match img{
     width: 100%;
@@ -125,6 +132,10 @@ body{
 .match-info{
     padding: 0px 30px;
 }
+.match-shedual{
+    text-align: center;
+    font-size: 25px;
+}
 .transfer-button{
     border-radius: 5px;
     padding: 8px 20px;
@@ -133,7 +144,8 @@ body{
     font-size: 1.5em;
 }
 .icon{
-    font-size: 23px;
+    margin-top: 0;
+    font-size: 15px;
     color: rgb(124, 128, 128);
 }
 .view-container{
@@ -152,6 +164,10 @@ body{
     font-size: 15px;
     
 }
+/*----------------
+   Main Start
+-----------------*/
+
 /*--------------------
      Footer style
 ---------------------- */
@@ -220,10 +236,8 @@ footer{
     .dashboard{
         flex-direction: column;
         height: auto;
-        background-color: #b2bec3;
-        width: 100%;
-        
-        
+        background-color: #ffffff;
+        width: 100%;    
     }
     .link button{
         width:100%;
@@ -233,15 +247,9 @@ footer{
         margin-bottom: 10px;
         color: #ffffff;
         padding: 5px;
-        
-    }
-   
+        }
     
-    .link{ margin-right: 5px;
-    
-       
-    
-    }
+    .link{ margin-right: 5px; }
     .matchs{
         grid-template-columns: repeat(1, 1fr);
         margin-bottom: 20px;
@@ -252,10 +260,8 @@ footer{
     .manu{
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;     
     }
-
 } 
 /*---------------------------
       For Tablet Device
@@ -277,12 +283,10 @@ footer{
         width: 100%;
         height: 99%;
     }
-    
-   
     .dashboard{
         flex-direction: row;
         height: auto;
-        background-color: #b2bec3;
+        background-color: #ffffff;
         width: 100%;
     }
 
