@@ -20,7 +20,27 @@ body{
     width: 90%;
     border-radius: 30px;
     margin-bottom: 160px;
-}   
+   
+} 
+.header:hover{
+    animation-name: color;
+    animation-duration: 3s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+@keyframes color {
+    0%   {background-color: #1abc9c;}
+    25%  {background-color: #2ecc71;}
+    50%  {background-color: #3498db;}
+    75%  {background-color: #9c88ff;}
+    100% {background-color: #273c75;}
+    
+  }
+
+
+
+   
+ 
 .header-text{
     
     color: #ffffff;
