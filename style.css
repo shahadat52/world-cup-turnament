@@ -27,6 +27,7 @@ body{
     animation-duration: 3s;
     animation-play-state: running;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 @keyframes color {
     0%   {background-color: #1abc9c;}
